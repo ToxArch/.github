@@ -2,68 +2,33 @@
   <img src="https://raw.githubusercontent.com/ToxArch/.github/main/profile/banner.svg" alt="TOXARCH - open-source cybersecurity defense" width="100%" />
 </p>
 
-## Why TOXARCH exists
+TOXARCH is an open-source security org. We build defensive tools from scratch for edge devices, networks, and everything in between. No forks, no rebrands, no black boxes. The code is public, so you can read it before you trust it.
 
-Most security stacks are assembled from inherited code, recycled ideas, and closed appliances. TOXARCH takes a different route: every tool here starts from a blank file and a first-principles question — what does an attacker actually do, what signal can we see, and what is the smallest reliable way to stop it?
+## What we work on
 
-We build in public. Designs, source, and trade-offs are open for review, so defenders can verify what they deploy instead of trusting a vendor's word.
-
-## What we focus on
-
-### Edge and IoT defense
-
-A huge share of the world runs on devices that will never accept a security agent: routers, cameras, sensors, industrial controllers, and embedded boards with megabytes of RAM. We build agentless monitoring that discovers these devices passively, learns their normal behavior, and flags drift — without requiring an install, a reboot, or a hardware upgrade.
-
-### Autonomous response
-
-Detection without response only produces dashboards. We work on policy-driven containment: detecting a threat, scoping what it can reach, and quarantining it automatically — with clear guardrails, audit logs, and an easy rollback so a false positive never becomes an outage.
-
-### Wire-speed packet defense
-
-Filtering that cannot keep up with the link is filtering that does not exist. We work close to the kernel — eBPF, XDP, and raw sockets — to do protocol anomaly detection and deep packet inspection at line rate, without copying every packet into user space or adding a middlebox to the path.
-
-### Attribution and accountability
-
-Networks still struggle to answer basic questions: which internal host caused this outbound traffic, who was behind a flow across NAT, and what exactly changed during an incident? We build flow attribution across NAT, outbound abuse mitigation, zero-trust ingress, and tamper-evident audit trails that stand up to later review.
+- **Edge and IoT defense:** agentless monitoring for devices that can't run a security agent. We watch how they behave instead of installing something on them.
+- **Autonomous response:** spot a threat, scope what it can reach, and quarantine it automatically. Guardrails and rollback keep a false positive from turning into an outage.
+- **Wire-speed packet defense:** eBPF, XDP, and raw sockets for filtering and deep packet inspection at line rate, without a middlebox or copying every packet.
+- **Attribution and accountability:** flow attribution across NAT, outbound abuse controls, zero-trust ingress, and audit trails that are hard to tamper with.
 
 ## How we build
 
-- **Built from scratch.** No forks, no rebrands, no wrapped-up copies of existing projects. If it already exists and fits, we link to it instead of rebuilding it.
-- **Open and auditable.** Source, design notes, and limitations are public. Security tools should be inspectable by the people who run them.
-- **Small and composable.** Focused tools with clear interfaces beat one monolith. Each project should be useful on its own.
-- **Defensive only.** We build protection, visibility, and accountability — not offensive tooling.
-- **Real constraints first.** Limited CPU, limited memory, no agents, no maintenance window. If a design only works in a lab, it is not finished.
-
-## Where we are today
-
-TOXARCH is a new organization. The first projects are in design and early development, and this profile will grow as repositories are published. Watch the organization or check the [repositories](https://github.com/orgs/ToxArch/repositories) page for what is available now.
-
-## Who this is for
-
-- Defenders and blue teams working in constrained or legacy environments
-- Network engineers who need visibility and control at the packet level
-- Security researchers who want to inspect, question, and improve the work
-- Contributors who prefer building from first principles over gluing together existing tools
+- **From scratch.** If something already exists and fits, we link to it instead of rebuilding it.
+- **In the open.** Source, design notes, and limitations are public.
+- **Small pieces.** Focused tools with clear interfaces beat one monolith.
+- **Defense only.** No offensive tooling.
+- **Real constraints.** Limited CPU, no agent, no maintenance window. If it only works in a lab, it isn't done.
 
 ## Get involved
 
-Contributions are open to everyone, whether that is code, threat research, protocol knowledge, documentation, or a well-argued bug report.
+We're new, and the first projects are in early development. Browse the [repositories](https://github.com/orgs/ToxArch/repositories), open an issue with an idea, or send a pull request. If you defend constrained networks or just like building things properly, you'll fit in.
 
-- Explore the [repositories](https://github.com/orgs/ToxArch/repositories) and try what is available
-- Open an issue to discuss an idea, a gap, or a design question
-- Send a pull request with a fix, a test, or a clearer explanation
-- Reach the maintainers at [toxarch0@gmail.com](mailto:toxarch0@gmail.com)
+You can also reach us at [toxarch0@gmail.com](mailto:toxarch0@gmail.com).
 
 ## Security
 
-If you find a vulnerability in one of our projects, please report it privately to [toxarch0@gmail.com](mailto:toxarch0@gmail.com) instead of opening a public issue. Give us a chance to fix it before details are published.
+Found a vulnerability? Email [toxarch0@gmail.com](mailto:toxarch0@gmail.com) privately instead of opening a public issue, and give us time to fix it before details go public.
 
 ## License
 
-Each project carries its own open-source license. See the `LICENSE` file in the relevant repository for the exact terms.
-
----
-
-<p align="center">
-  <sub>TOXARCH — open-source cybersecurity defense</sub>
-</p>
+Each project has its own open-source license. Check the `LICENSE` file in the repo for the exact terms.
