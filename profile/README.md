@@ -1,14 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ToxArch/.github/main/profile/banner.svg" alt="TOXARCH - original open-source cybersecurity defense" width="100%" />
+  <img src="https://raw.githubusercontent.com/ToxArch/.github/main/profile/banner.svg" alt="TOXARCH - open-source cybersecurity defense" width="100%" />
 </p>
-
-<h1 align="center">Original defense. Open to everyone.</h1>
-
-<p align="center">
-  <strong>TOXARCH</strong> is an open-source cybersecurity organization building defensive tools from the ground up — for the edge, the network, and the systems in between.
-</p>
-
----
 
 ## Why TOXARCH exists
 
@@ -36,7 +28,7 @@ Networks still struggle to answer basic questions: which internal host caused th
 
 ## How we build
 
-- **Original by default.** No forks, no rebrands, no wrapped-up copies of existing projects. If it already exists and fits, we link to it instead of rebuilding it.
+- **Built from scratch.** No forks, no rebrands, no wrapped-up copies of existing projects. If it already exists and fits, we link to it instead of rebuilding it.
 - **Open and auditable.** Source, design notes, and limitations are public. Security tools should be inspectable by the people who run them.
 - **Small and composable.** Focused tools with clear interfaces beat one monolith. Each project should be useful on its own.
 - **Defensive only.** We build protection, visibility, and accountability — not offensive tooling.
@@ -73,5 +65,5 @@ Each project carries its own open-source license. See the `LICENSE` file in the 
 ---
 
 <p align="center">
-  <sub>TOXARCH — original open-source cybersecurity defense</sub>
+  <sub>TOXARCH — open-source cybersecurity defense</sub>
 </p>
