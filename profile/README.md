@@ -1,15 +1,33 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ToxArch/.github/main/profile/banner.svg?v=2" alt="TOXARCH - open-source cybersecurity defense" width="100%" />
+  <img src="https://raw.githubusercontent.com/ToxArch/.github/main/profile/banner.svg?v=3" alt="TOXARCH - open-source cybersecurity defense" width="100%" />
 </p>
 
 TOXARCH is an open-source security organization. We build defensive tools from scratch for edge devices, networks, and the systems between them. All code is public, so you can review it before you use it.
 
 ## What we work on
 
-- **Edge and IoT defense:** agentless monitoring for devices that cannot run security software.
-- **Autonomous response:** detect a threat, limit its reach, and quarantine it automatically.
-- **Wire-speed packet defense:** eBPF, XDP, and raw sockets for filtering and deep packet inspection at line rate.
-- **Attribution and accountability:** flow attribution across NAT, outbound abuse controls, zero-trust ingress, and tamper-evident audit logs.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Edge and IoT defense</strong><br>
+      Agentless monitoring for devices that cannot run security software.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Autonomous response</strong><br>
+      Detect a threat, limit its reach, and quarantine it automatically.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Wire-speed packet defense</strong><br>
+      eBPF, XDP, and raw sockets for filtering and deep packet inspection at line rate.
+    </td>
+    <td width="50%" valign="top">
+      <strong>Attribution and accountability</strong><br>
+      Flow attribution across NAT, outbound abuse controls, zero-trust ingress, and tamper-evident audit logs.
+    </td>
+  </tr>
+</table>
 
 ## How we build
 

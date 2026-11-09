@@ -13,7 +13,11 @@
       <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0.85"/>
     </linearGradient>
+    <clipPath id="round">
+      <rect width="1280" height="304" rx="28" ry="28"/>
+    </clipPath>
   </defs>
+  <g clip-path="url(#round)">
   <!-- Background -->
   <rect width="1280" height="304" fill="#0a0a0a"/>
   <rect width="1280" height="304" fill="url(#dots)"/>
@@ -27,4 +31,5 @@
   <!-- Arrow in flight: a thin line fading in from the left, ending in a small arrowhead -->
   <rect x="216" y="241" width="980" height="2" fill="url(#fade)"/>
   <path d="M1196 232 L1216 242 L1196 252 Z" fill="#f5f5f5" fill-opacity="0.9"/>
+  </g>
 </svg>
