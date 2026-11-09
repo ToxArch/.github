@@ -1,34 +1,34 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ToxArch/.github/main/profile/banner.svg" alt="TOXARCH - open-source cybersecurity defense" width="100%" />
+  <img src="https://raw.githubusercontent.com/ToxArch/.github/main/profile/banner.svg?v=2" alt="TOXARCH - open-source cybersecurity defense" width="100%" />
 </p>
 
-TOXARCH is an open-source security org. We build defensive tools from scratch for edge devices, networks, and everything in between. No forks, no rebrands, no black boxes. The code is public, so you can read it before you trust it.
+TOXARCH is an open-source security organization. We build defensive tools from scratch for edge devices, networks, and the systems between them. All code is public, so you can review it before you use it.
 
 ## What we work on
 
-- **Edge and IoT defense:** agentless monitoring for devices that can't run a security agent. We watch how they behave instead of installing something on them.
-- **Autonomous response:** spot a threat, scope what it can reach, and quarantine it automatically. Guardrails and rollback keep a false positive from turning into an outage.
-- **Wire-speed packet defense:** eBPF, XDP, and raw sockets for filtering and deep packet inspection at line rate, without a middlebox or copying every packet.
-- **Attribution and accountability:** flow attribution across NAT, outbound abuse controls, zero-trust ingress, and audit trails that are hard to tamper with.
+- **Edge and IoT defense:** agentless monitoring for devices that cannot run security software.
+- **Autonomous response:** detect a threat, limit its reach, and quarantine it automatically.
+- **Wire-speed packet defense:** eBPF, XDP, and raw sockets for filtering and deep packet inspection at line rate.
+- **Attribution and accountability:** flow attribution across NAT, outbound abuse controls, zero-trust ingress, and tamper-evident audit logs.
 
 ## How we build
 
-- **From scratch.** If something already exists and fits, we link to it instead of rebuilding it.
-- **In the open.** Source, design notes, and limitations are public.
-- **Small pieces.** Focused tools with clear interfaces beat one monolith.
+- **From scratch.** If an existing tool fits, we link to it instead of rebuilding it.
+- **In public.** Source, design notes, and limitations are open.
+- **Small tools.** Clear interfaces and focused code instead of one large system.
 - **Defense only.** No offensive tooling.
-- **Real constraints.** Limited CPU, no agent, no maintenance window. If it only works in a lab, it isn't done.
+- **Real conditions.** Limited CPU, no agent, no maintenance window. If it only works in a lab, it is not finished.
 
 ## Get involved
 
-We're new, and the first projects are in early development. Browse the [repositories](https://github.com/orgs/ToxArch/repositories), open an issue with an idea, or send a pull request. If you defend constrained networks or just like building things properly, you'll fit in.
+The first projects are in early development. Browse the [repositories](https://github.com/orgs/ToxArch/repositories), open an issue with an idea, or send a pull request.
 
-You can also reach us at [toxarch0@gmail.com](mailto:toxarch0@gmail.com).
+Contact: [toxarch0@gmail.com](mailto:toxarch0@gmail.com)
 
 ## Security
 
-Found a vulnerability? Email [toxarch0@gmail.com](mailto:toxarch0@gmail.com) privately instead of opening a public issue, and give us time to fix it before details go public.
+Report vulnerabilities privately to [toxarch0@gmail.com](mailto:toxarch0@gmail.com). Please do not open a public issue before a fix is available.
 
 ## License
 
-Each project has its own open-source license. Check the `LICENSE` file in the repo for the exact terms.
+Each project has its own open-source license. See the `LICENSE` file in that repository.
